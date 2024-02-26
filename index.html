@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="con1">
+        <label>Your nickname please</label>
+    <input type="text" id="textInput" value="">
+    <button type="Submit" onclick="submit()">Proceed</button>
+    </div>
+
+    <div id="con2" style="display: none;">
+        <h1 id="h1value"></h1>
+        
+        <div id="tea">
+
+                <div id="tea1">
+                    <img src="images/Caramel-Milk-Tea-2.jpg">
+                    <h1>Caramel</h1>
+                    <p>This caramel milk tea is so incredibly sweet and delicious,
+                        you'll be wondering when you can whip yourself up another glass next!</p>
+                    <button type="button" onclick="read1()">Read more</button>
+                </div>
+
+                <div id="tea2">
+                    <img src="images/chocolate.jpg">
+                    <h1>Chocolate</h1>
+                    <p>This easy Chocolate Milk Tea is sweet, chocolatey, creamy, and so delicious! 
+                        It is made using 3 simple ingredients- black tea, hot cocoa mix, and half and half. 
+                        Feel free to drink it hot or cold and with or without chewy boba.</p>
+                        <button type="button" onclick="read2()">Read more</button>
+                </div>
+
+                <div id="tea3">
+                    <img src="images/matcha_design.webp">
+                    <h1>Matcha</h1>
+                    <p>Matcha milk tea is one of the most popular bubble tea flavors because it blends the rich earthiness of
+                         matcha powder with the rich sweetness and creamy texture of boba milk tea.</p>
+                         <button type="button" onclick="read3()">Read more</button>
+                </div>
+
+                <div id="tea4">
+                    <img src="images/Jasmine-Milk-Tea-64.jpg">
+                    <h1>Jasmine</h1>
+                    <p>Jasmine tea has been a longstanding favorite for people around the world for hundreds of years. 
+                        Its origins are in China, where it has been grown, cultivated, and used for tea since the 12th century. 
+                        In this case, you’re simply brewing Jasmine tea leaves and adding milk and boba.</p>
+                        <button type="button" onclick="read4()">Read more</button>
+                </div>
+        </div>
+    </div>
+
+    <div id="tea1-1" style="display: none;">
+        <h1>Caramel</h1>
+        <p>This caramel milk tea is so incredibly sweet and delicious,
+            you'll be wondering when you can whip yourself up another glass next!</p>
+        <button type="button" onclick="back()">Back</button>
+    </div>
+
+    <div id="tea2-2" style="display: none;">
+        <h1>Chocolate</h1>
+        <p>This easy Chocolate Milk Tea is sweet, chocolatey, creamy, and so delicious! 
+            It is made using 3 simple ingredients- black tea, hot cocoa mix, and half and half. 
+            Feel free to drink it hot or cold and with or without chewy boba.</p>
+            <button type="button" onclick="back()">Back</button>
+    </div>
+
+    <div id="tea3-3" style="display: none;">
+        <h1>Matcha</h1>
+        <p>Matcha milk tea is one of the most popular bubble tea flavors because it blends the rich earthiness of
+             matcha powder with the rich sweetness and creamy texture of boba milk tea.</p>
+             <button type="button" onclick="back()">Back</button>
+    </div>
+
+    <div id="tea4-4" style="display: none;">
+        <h1>Jasmine</h1>
+        <p>Jasmine tea has been a longstanding favorite for people around the world for hundreds of years. 
+            Its origins are in China, where it has been grown, cultivated, and used for tea since the 12th century. 
+            In this case, you’re simply brewing Jasmine tea leaves and adding milk and boba.</p>
+            <button type="button" onclick="back()">Back</button>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+#tea{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 20px;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 200px;
+    margin-top: 100px;
+    align-items: center;
+}
+#tea1, #tea2, #tea3, #tea4{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 10px;
+}
+#tea1 img, #tea2 img, #tea3 img, #tea4 img{
+    width: 100px;
+}
+#con2 button{
+    height: 25px;
+    width: 150px;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+}
+#con1{
+    padding: 300px;
+    font-size: 25px;
+
+}
+#con1 input{
+    height: 25px;
+    width: 300px;
+}
+#con1 button{
+    height: 30px;
+    width: 110px;
+    font-size: 15px;
+    background-color: blue;
+    color: beige;
+    border-radius: 8px;
+}
+#tea1-1 button, #tea2-2 button, #tea3-3 button, #tea4-4 button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
